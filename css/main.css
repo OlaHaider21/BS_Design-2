@@ -1,0 +1,230 @@
+*{
+    font-family: 'Poppins' ,sans-serif;
+    
+}
+.navbar {
+    background-color: #131313!important;
+    font-size: 0.9rem;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+}
+.navbar .navbar-brand{
+    font-size: 22px;
+    font-weight: 700;
+}
+.navbar .container .nav-item   a.nav-link {
+    color:white;
+    padding: 0 0.8rem;
+}
+.navbar .container .nav-item   a.nav-link:hover {
+    color:#00BF85;
+    
+}
+.navbar .container   .btn{
+    background-color: #00BF85;
+    color: black;
+    border-radius: 30px;
+    font-size: 00.9rem;
+    padding: 0.3rem 0.9rem;
+    font-weight: 600;
+}
+/* Start the first section */
+.first-sec {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+.first-sec video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.first-sec .container {
+    position: relative;
+}
+.first-sec .container h1{
+    font-weight: 700;
+}
+.first-sec .container p{
+    font-size: 0.9rem;
+    width: 50%;
+    margin-bottom: 1.8rem;
+}
+.first-sec .container   a{
+    background-color: #00BF85;
+    color: black;
+    border-radius: 30px;
+    font-size: 00.9rem;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.first-sec .container a:hover{
+    background-color: #fff;
+}
+/* End the first section */
+
+/* Start about section */
+.about {
+    background-color: #000;
+    height: 100%;
+    padding-top:17vh;
+    padding-bottom: 17vh;
+    
+}
+.about .container h6{
+    color: #00BF85;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.about .container h2{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.about .container p{
+    font-size: 12px;
+    letter-spacing:0.05rem;
+    margin-bottom: 1.5rem;
+}
+.about img{
+    max-width: 100%;
+}
+.about .container   a{
+    background-color: #00BF85;
+    color: black;
+    border-radius: 30px;
+    font-size: 00.9rem;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* End about section*/
+
+/* Start Discover Section */
+.discover {
+    
+    height: 100%;
+    padding-top:17vh;
+    padding-bottom: 17vh;
+    
+}
+.discover .container h6{
+    color: #00BF85;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.discover .container h2{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.discover .container p{
+    font-size: 12px;
+    letter-spacing:0.05rem;
+    margin-bottom: 1.5rem;
+}
+.discover .container   a{
+    background-color: #000;
+    color: white;
+    border-radius: 30px;
+    font-size: 00.9rem;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* End Discover Section */
+
+.service{
+    background-color: #000;
+    height: 100%;
+    padding-top: 17vh;
+    padding-bottom: 17vh;
+}
+.service h2{
+    color: #fff;
+}
+.service .card {
+    margin-bottom: 1.5rem;
+   
+}
+.service .card p{
+    font-size: 0.9rem;
+}
+
+/* Start Sign Up */
+.sign-up {
+    
+    height: 100%;
+    padding-top:17vh;
+    padding-bottom: 17vh;
+    
+}
+.sign-up .container h6{
+    color: #00BF85;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.sign-up .container h2{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.sign-up .container p{
+    font-size: 12px;
+    letter-spacing:0.05rem;
+    margin-bottom: 1.5rem;
+}
+.sign-up .container   a{
+    background-color: #000;
+    color: white;
+    border-radius: 30px;
+    font-size: 00.9rem;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* End Sign Up */
+
+/*Footer*/
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+footer h5{
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+footer p{
+    font-size: 14px;
+}
+footer .container .sec-2  .btn{
+    background-color: #00BF85;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 00.9rem;
+    padding: 0.3rem 1rem;
+    font-weight: 600;
+}
+/*Footer*/
+
+/* copy right*/
+.copy-right{
+    color: #fff;
+    background-color: #000;
+}
+
+/* End copy right*/
